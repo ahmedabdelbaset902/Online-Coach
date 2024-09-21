@@ -1,0 +1,217 @@
+
+*{
+    font-family:'Poppins',sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+header 
+{
+    
+    width:80%;
+    position:fixed;
+    display: flex;
+    z-index:999;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 150px ;
+}
+
+section {
+    padding:245px 100px ;
+
+}
+.main {
+    width: 100%;
+   min-height: 100%;
+    display: flex;
+    align-items: center; 
+  background: url("../sameh/aaaaaaaaa.jpeg");
+   background-size: 100%;
+    background-size: cover;
+background-attachment:scroll;
+}
+.main h2 {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+color: #0868d6;
+font-size: 3em;
+font: weight 600px;;
+}
+.main h3 {
+    color:black;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.main-btn {
+    color: rgb(255, 255, 255);
+background:#0749ff;
+text-decoration: none;
+font-size: 1,1em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em  2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+transition: 0.7s ease;
+}
+.main-btn:hover  {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.social-icons a {
+    color:rgb(0, 0, 0);
+    font-size: 1.7em;
+    padding-right: 25px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: #0e0e0f;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color:white;
+    width: 20em;
+    box-shadow: 0 25px  25px rgba(1 1 1/15%);
+    border-radius: 15px;
+    padding: 25px; 
+    margin: 15px;
+   
+}
+.icon {
+    color: #000206;
+    font-size: 5em;
+    text-align: center;
+    
+}
+.info {
+    text-align: center;
+}
+.info h3 {
+    color: #3a6cF4;
+    font-size: 1,2em;
+    font-weight: 700;
+    margin: 10px;
+    
+}
+.project {
+    background-color:white;
+}
+.cards{
+    background-color:white;
+}
+.boxes .content {
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.boxes .card {
+    background-color:rgb(225, 208, 208);
+    width: 22em;
+    box-shadow: 0 25px  30px rgba(1 1 1/15%);
+    border-radius: 15px;
+    padding: 25px; 
+    margin: 20px;
+} 
+.boxes.info  {
+    font-size:3em;
+    font-weight:800;
+    margin: 10px;
+}
+
+
+.boxes .social-icons a {
+    color: white;
+    background: black;
+    text-decoration: none;
+    font-size: 1,1em;
+    font-weight: 600;
+    display: inline-block;
+padding: 5px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin: 5px;
+    transition: 0.7s ease;
+}
+.footer{
+    background-color: #0749ff;
+    color: white;
+    padding: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-title{
+    font-size:1.3em ;
+    font-weight: 600;
+
+}
+.footer-title span{
+    color: #0e0e0f;
+}
+.footer .social-icons a {
+    font-size: 1.2em;
+    color: aliceblue;
+}
+@media (max-width:1023px){
+section{
+    padding: 80px 20px;
+}
+.main-content h1{
+font-size: 1em;
+}
+.main-content h3{
+    font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:541px){
+   body{
+    font-size: 12px;
+   }
+   .main-content h1{
+    font-size: 0.8em;
+    }
+    .main-content h3{
+        font-size: 1.4em
+
+    }
+}
+@media (max-width:200px){
+    body{
+     font-size: 10px;
+    
+    }
+    }
+  
+  
+    
+      
+
+    
+
+
